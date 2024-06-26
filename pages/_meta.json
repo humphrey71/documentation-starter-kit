@@ -1,15 +1,37 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "display": "hidden",
+    "title": "Home",
+    "type": "page"
+  },
+  "credit-card": {
+    "title": "Credit Card",
+    "type": "menu",
+    "items": {
+      "generator": {
+        "title": "Credit Card Number Generator",
+        "href": "/credit-card/generator"
+      },
+      "checker": {
+        "title": "Credit Card Number Checker",
+        "href": "/credit-card/checker"
+      }
+    }
+  },
+  "debit-card": {
+    "title": "Debit Card",
+    "type": "page"
+  },
+  "member-card": {
+    "title": "Member Card",
+    "type": "page"
+  },
+  "counter": {
+    "title": "Counter",
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   }
 }
